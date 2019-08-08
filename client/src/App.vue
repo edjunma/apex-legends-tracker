@@ -41,8 +41,7 @@ ul {
   background: var(--primary-color);
 }
 .body-bg-image {
-  background: var(--primary-color) url("./assets/octane.png") no-repeat top
-    center;
+  background: var(--primary-color) url("./assets/apex-bg.png") no-repeat 50% -75%;
 }
 .container {
   max-width: 960px;

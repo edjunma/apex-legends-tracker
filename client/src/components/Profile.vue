@@ -81,7 +81,6 @@ export default {
         `/api/v1/profile/${this.$route.params.platform}/${this.$route.params.gamertag}`
       );
       this.profileData = res.data.data;
-      console.log(this.profileData);
       this.loading = false;
     } catch (err) {
       this.loading = false;
